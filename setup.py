@@ -43,6 +43,7 @@ setup(
     author_email='matthew.westcott@torchbox.com',
     url='http://wagtail.io/',
     packages=find_packages(),
+    package_data={'': ['*']},
     include_package_data=True,
     license='BSD',
     long_description=open('README.rst').read(),
