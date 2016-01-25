@@ -44,7 +44,7 @@ setup(
     url='http://wagtail.io/',
     packages=find_packages(),
     package_data={'wagtail': ['*.json']},
-    data_files=[('setup', ['package.json', 'gulpfile.js/*'])],
+    data_files=[('setup', ['package.json', 'gulpfile.js'])],
     include_package_data=True,
     license='BSD',
     long_description=open('README.rst').read(),
